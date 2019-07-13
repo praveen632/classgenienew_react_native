@@ -1,0 +1,12 @@
+rootProject.name = 'classgenienew_r'
+include ':reactNativeMPAndroidChart'
+project(':reactNativeMPAndroidChart').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-mp-android-chart/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-fcm'
+project(':react-native-fcm').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fcm/android')
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
+include ':react-native-share'
+project(':react-native-share').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-share/android')
+include ':app'
